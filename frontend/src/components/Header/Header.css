@@ -1,0 +1,29 @@
+/* Custom Navbar */
+.custom-navbar {
+  padding: 8px 0;
+}
+
+/* Brand Text */
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Custom Search Box */
+.custom-search {
+  width: 220px;
+  border-radius: 20px;
+}
+
+/* Navbar Links */
+.nav-link {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* Navbar Dropdown */
+.nav-dropdown {
+  font-size: 16px;
+  font-weight: bold;
+}

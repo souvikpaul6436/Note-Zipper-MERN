@@ -1,0 +1,17 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+  
+}
+.eye-icon {
+  cursor: pointer;
+}
+
+.eye-icon:hover {
+  color: #007bff; /* Change the icon color on hover */
+}

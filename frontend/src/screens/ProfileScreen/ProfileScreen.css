@@ -1,0 +1,30 @@
+.profilePic {
+  padding: 10px;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0px 0px 8px rgba(6, 132, 244, 0.3);
+}
+.profileContainer {
+  display: flex;
+  margin: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .profileContainer {
+    flex-direction: column-reverse;
+  }
+}
+
+.form-label {
+  font-weight: bold;
+  
+}
+
+.eye-icon {
+  cursor: pointer;
+}
+
+.eye-icon:hover {
+  color: #007bff; /* Change the icon color on hover */
+}
