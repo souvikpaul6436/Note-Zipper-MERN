@@ -1,5 +1,5 @@
-# Note Zipper 
-## MERN Application
+# Note Zipper - MERN
+
 <table>
 <tr>
 <td>
