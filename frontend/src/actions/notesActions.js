@@ -31,7 +31,7 @@ export const listNotes = () => async (dispatch, getState) => {
     };
 
     const { data } = await axios.get(
-      `http://localhost:5000/api/notes/get`,
+      `https://note-zipper-drf6.onrender.com/api/notes/get`,
       config
     );
 
@@ -72,7 +72,7 @@ export const createNoteAction =
       };
 
       const { data } = await axios.post(
-        `http://localhost:5000/api/notes/create`,
+        `https://note-zipper-drf6.onrender.com/api/notes/create`,
         { title, content, category },
         config
       );
@@ -110,7 +110,7 @@ export const deleteNoteAction = (id) => async (dispatch, getState) => {
     };
 
     const { data } = await axios.delete(
-      `http://localhost:5000/api/notes/${id}`,
+      `https://note-zipper-drf6.onrender.com/api/notes/${id}`,
       config
     );
 
@@ -149,7 +149,7 @@ export const updateNoteAction =
       };
 
       const { data } = await axios.put(
-        `http://localhost:5000/api/notes/${id}`,
+        `https://note-zipper-drf6.onrender.com/api/notes/${id}`,
         { title, content, category },
         config
       );
