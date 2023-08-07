@@ -33,7 +33,7 @@ function SingleNote({ match, history }) {
     const fetching = async () => {
       try {
         const { data } = await axios.get(
-          `http://localhost:5000/api/notes/${match.params.id}`
+          `https://note-zipper-drf6.onrender.com/api/notes/${match.params.id}`
         );
 
         setTitle(data.title);
